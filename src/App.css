@@ -1,14 +1,17 @@
 .contetn-board-main-container{
-    width: 100%;
+    position: relative;
+    width: 75%;
     height: 100%;
 }
 
 .main-container-section{
+    position: relative;
     width: 100%;
     height: 100%;
 }
 
 .sidebar-comp{
-    width: 100%;
+    width: 25%;
     height: 100%;
 }
+

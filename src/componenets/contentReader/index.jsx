@@ -2,6 +2,7 @@ import React from 'react'
 import './index.css'
 import person from "../../assets/person.png";
 
+
 const ContentReader = ({key,value}) => {
 
   function formatDate(date) {

@@ -1,0 +1,10 @@
+.div-main-card-container{
+    position: relative;
+    margin: 10px;
+
+}
+
+.added-tweets-container >p{
+    font-weight: 500;
+    font-size: 2rem;
+}

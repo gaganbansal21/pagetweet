@@ -1,0 +1,9 @@
+.sidebar-container{
+    width: 40%;
+    height: 100%;
+    background-color: black;
+}
+
+.sidebar-div-uppertext{
+    color: white;
+}

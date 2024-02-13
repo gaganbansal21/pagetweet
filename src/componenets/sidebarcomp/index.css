@@ -1,10 +1,18 @@
 .sidebar-container{
     position: relative;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 } 
+
+.sidebar-container-div{
+    width: 100%;
+    height: 27vw;
+}
+
+.sidebar-div-uppertext > h2{
+    font-size: 3vw;
+} 
+
 
 .sidebar-div-uppertext{
     position: relative;
@@ -13,7 +21,7 @@
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    padding :5vw;
+    padding: 5vw;
     height: 120px;
     color: white;
     align-items: center;
@@ -21,23 +29,33 @@
 .text-container{
     position: relative;
     display: flex;
-    flex-direction: row;
-    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    background-color: rgba(200, 200, 200, 0.197);
     padding: 1rem;
+    height: 12vw;
 }
 
 .bottom-text-conatiner >img{
-    position: absolute;
+    /* position: absolute; */
     border: 2px solid white;
     border-radius: 50%;
-    height: 88px;
-    width: 81px;
-    top: -39px;
-    left: 4px;
+    height: 8vw;
+    width: 8vw;
+    top: -26px;
+    left: 20px;
 }
 
+.middle-container-wrapper{
+    display: flex;
+    color: black;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+    position: relative;
+    top: -28px;
+}
 .middle-text-container{
-    color: rgb(255, 255, 255);
+    font-size: 1vw;
 }
 
 .last-section-container{

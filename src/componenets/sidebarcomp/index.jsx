@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import person from "../../assets/person.png";
+import person from "../../assets/person.jpg";
 const SideBarComp = () => {
   return (
     <div className="sidebar-container">
@@ -9,29 +9,32 @@ const SideBarComp = () => {
           <h2>RATATOUILLE</h2>
         </div>
         <div className="text-container">
-          <div className="bottom-text-conatiner">
-            <img src={person} alt="user-icon" />
-          </div>
-          <div className="middle-text-container">
-            <div>
-                <p>Remy</p>
-            </div>
-            <div>
-                <p>@remy</p>
-            </div>
-          </div>
-        </div>
+          <div className="middle-container-wrapper">
+              <div className="bottom-text-conatiner">
+                <img src={person} alt="user-icon" />
+              </div>
 
-        <div className="last-section-container">
+              <div className="middle-text-container">
+                <div>
+                  <p>Remy</p>
+                </div>
+                <div>
+                  <p>@remy</p>
+                </div>
+              </div>
+          </div>
+          <div className="last-section-container">
             <div>
-                <h3>Tweet</h3>
+              <h3>Tweet</h3>
             </div>
             <div>
-            <h3>Following</h3>
+              <h3>Following</h3>
             </div>
             <div>
-            <h3>Followers</h3>
+              <h3>Followers</h3>
             </div>
+          </div>
+
         </div>
       </div>
     </div>

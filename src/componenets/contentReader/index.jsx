@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import person from "../../assets/person.png";
+import person from "../../assets/person.jpg";
 
 
 const ContentReader = ({key,value}) => {
@@ -23,7 +23,7 @@ const ContentReader = ({key,value}) => {
         <img src={person} alt="user-icon"/>
       </div>
         <div>
-          <div className='user-data-container'>@user <span>{formattedDate}</span></div>
+          <div className='user-data-container'>@remy <span>{formattedDate}</span></div>
           <div>{value}</div>
         </div>
     </div>
